@@ -1,0 +1,12 @@
+package com.example.account.user.dto;
+
+import lombok.Getter;
+
+@Getter
+public class PasswordRequest {
+
+    private String email;
+
+    private String password;
+
+}
